@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+App created with rails version 6  
+![Ruby icon image](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png)
 
-Things you may want to cover:
+## Finance App
 
-* Ruby version
+**Social app application** relted to finances.  
+Follow finance data and see what you friends are following. 
 
-* System dependencies
+### This app will teach:  
+- Modify third app gems
+- Use bootstrap generatos
+- Use deeper rails generators
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Udemy course teacher complete project:  
+[Go to teacher´s complete project](https://github.com/udemyrailscourse/finance-tracker-6)
