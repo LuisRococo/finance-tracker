@@ -6,7 +6,7 @@ App created with rails version 6
 
 ## Finance App
 
-**Social app application** relted to finances.  
+**Social app application** related to finances.  
 Follow finance data and see what you friends are following. 
 
 ### This app will teach:  
