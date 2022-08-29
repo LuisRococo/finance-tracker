@@ -1,7 +1,8 @@
 # README
 
 App created with rails version 6  
-![Ruby icon image](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png)
+<!-- ![Ruby icon image](https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png) -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png" width="300">
 
 ## Finance App
 
