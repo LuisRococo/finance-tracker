@@ -1,26 +1,5 @@
 <h1>My friends</h1>
 
 <% unless @friends.empty? %>
-    <div class="row">
-        <div class="col-9">
-            <table class="table table-bordered table-hover">
-                <thead>
-                    <tr>
-                        <th scope="col">First name</th>
-                        <th scope="col">Last name</th>
-                        <th scope="col">E-mail</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <% @friends.each do |friend|  %>
-                        <tr>
-                            <td><%= friend.first_name %></td>
-                            <td><%= friend.last_name %></td>
-                            <td><%= friend.email %> </td>
-                        </tr>
-                    <% end %>
-                </tbody>
-            </table>
-        </div>
-    </div>
+    <%= render 'friends/list' %>
 <% end %>
