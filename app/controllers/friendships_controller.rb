@@ -1,6 +1,9 @@
 class FriendshipsController < ApplicationController
+  def create
+  end
+
   def destroy
-    friendship = Friendship.where(user: current_user.id, friend: params[:id]).first
+    friendship = current_user.friendships.where(friend_id: params[:id]).first
     friend = friendship.friend
     friendship.destroy
     

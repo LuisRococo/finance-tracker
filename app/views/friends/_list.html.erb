@@ -15,7 +15,7 @@
                         <td><%= friend.first_name %></td>
                         <td><%= friend.last_name %></td>
                         <td><%= friend.email %> </td>
-                        <td><%= link_to 'Remove', friendship_path(friend.id), method: :delete, data: {confirm: 'Are you sure'},
+                        <td><%= link_to 'Remove', friendship_path(friend), method: :delete, data: {confirm: 'Are you sure'},
                                                     class: 'btn btn-warning' %> </td>
                     </tr>
                 <% end %>
